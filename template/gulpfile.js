@@ -2,8 +2,7 @@
 var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
 var shell = require('gulp-shell');
-var iaas = require('./lib/lib.js');
-var json = ('./package.json');
+var json = require('./package.json');
 
 gulp.task('deploy', function() {
   return gulp.src(['_book/*/*/*','_book/*/*','_book/*'])
