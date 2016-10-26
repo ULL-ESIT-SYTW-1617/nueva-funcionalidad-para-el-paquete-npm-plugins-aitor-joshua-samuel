@@ -4,7 +4,9 @@ var argv = require('minimist')(process.argv.slice(2));
 var fs = require('fs-extended');
 var path = require('path');
 var fs2 = require('fs');
-var iaas = require('gitbook-start-iaas-ull-aitor-joshua-samuel');
+//var iaas = require('/Users/casiano/local/src/ruby/STW/alus/1617/nueva-funcionalidad-para-el-paquete-npm-plugins-aitor-joshua-samuel/node_modules/gitbook-start-iaas-ull-es-aitor-joshua-samuel/index.js');
+var iaas = require('gitbook-start-iaas-ull-es-aitor-joshua-samuel');
+console.log(iaas);
 
 
 if (argv.n) {
